@@ -1,0 +1,3 @@
+# Project exclude paths
+/springcloud-02-provider-02/target/
+/springcloud-04-hystrix-feign/target/
