@@ -18,6 +18,6 @@ public class Springcloud02Provider02Application {
 
 	@RequestMapping("/getInfo")
     public String getInfo(){
-        return "localhost:8081";
+        return "I'm provider-02, my address is localhost:8082";
     }
 }
