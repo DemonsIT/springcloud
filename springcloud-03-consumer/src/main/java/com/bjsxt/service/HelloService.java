@@ -11,10 +11,10 @@ import org.springframework.web.client.RestTemplate;
  */
 @Service
 public class HelloService {
+    
     @Autowired
     private RestTemplate restTemplate;
-
-
+    
     public String getInfo(){
         return restTemplate.getForObject("http://springcloud-provider/getInfo",String.class);
     }
